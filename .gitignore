@@ -1,0 +1,21 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.exe
+*.lnk
+*.zip
+build/
+dist/
+unified_combo_trader_grid_dist/
+
+# Runtime data — never commit. Keys are DPAPI-encrypted (keys/*.dat) but still excluded:
+# the ciphertext is only meaningful, and only decryptable, on the machine/account that
+# created it, so it has no business in version control regardless.
+keys/*.dat
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.log
+data/*.json

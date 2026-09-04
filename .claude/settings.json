@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo list*)",
+      "Bash(tasklist *)",
+      "Bash(python -m py_compile *)",
+      "Bash(python -m pyflakes *)",
+      "Bash(du -sh *)",
+      "mcp__claude-in-chrome__tabs_context_mcp"
+    ]
+  }
+}
